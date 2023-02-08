@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - residuo
+  - contenedor1
+  - contenedor2
+  - contenedor3
+  - contenedor4
+  - residuo2
+  - residuo3
+  - residuo4
   layers:
   - Default
   - TransparentFX

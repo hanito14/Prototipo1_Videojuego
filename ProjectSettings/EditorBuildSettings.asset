@@ -14,6 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Juego.unity
     guid: 42d7a7ba2236c4c42a106f67f1c96d47
+  - enabled: 1
+    path: Assets/Scenes/Personalizar.unity
+    guid: 08309d10c9338584eb7bd80719f2961b
+  - enabled: 1
+    path: "Assets/Scenes/Configuraci\xF3n.unity"
+    guid: 56dd6ab1777f79241adc475f9cd033c1
+  - enabled: 1
+    path: Assets/Scenes/ComoJugar.unity
+    guid: 0804447a0de5d634fa418f51f8ad35fa
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 47ffc5f112f272f4093529ee287a61f2, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: e2f8368875e6da147aa77a041803b31f, type: 2}

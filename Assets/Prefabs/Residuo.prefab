@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3717677047951529074}
   - component: {fileID: 3717677047951529084}
   - component: {fileID: 3717677047951529085}
+  - component: {fileID: -8395001844721924629}
   m_Layer: 0
   m_Name: Residuo
-  m_TagString: Untagged
+  m_TagString: residuo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,3 +115,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e90b0ea6cecc8f4cbe6222bc2c3b173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-8395001844721924629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717677047951529073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

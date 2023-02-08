@@ -4,29 +4,33 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject residuo;
-    public Vector3 spawnPoint;
-    public int timeTilNextSpawn = 10;
-    float timer = 0;
+    [SerializeField]
+    List<GameObject> listaResiduos = new List<GameObject>();
+    [SerializeField]
+    float baseTime = 2f;
+
+    
 
     void Start()
     {
-        timer = 0;
+        StartCoroutine(SpawnWaste());
     }
-
-    void Update()
+    IEnumerator SpawnWaste()
     {
-        timer += Time.deltaTime;
-        Spawn();
-    }
-
-    void Spawn()
-    {
-        if (timer >= timeTilNextSpawn)
+        while (true)
         {
-            //spawnPoint.x = x;
-            Instantiate(residuo, spawnPoint, Quaternion.identity);
-            timer = 0;
+            yield return new WaitForSeconds(baseTime);
+
+            float upForce = Random.Range(10f, 13f);
+            int prefabIndex = Random.Range(0, listaResiduos.Count);
+
+            GameObject instance = Instantiate(listaResiduos[prefabIndex], new Vector2(-2.5f, -4.5f), Quaternion.identity);
+
+            Rigidbody prefabRigidbody = instance.GetComponent<Rigidbody>();
+
+            prefabRigidbody.AddForce(new Vector2(3f, upForce), ForceMode.Impulse);
+
+            
         }
     }
 }

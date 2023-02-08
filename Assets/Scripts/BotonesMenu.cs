@@ -12,4 +12,19 @@ public class BotonesMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Personalizar");
     }
+
+    public void Configuracion()
+    {
+        SceneManager.LoadScene("Configuración");
+    }
+
+    public void ComoJugar()
+    {
+        SceneManager.LoadScene("ComoJugar");
+    }
+
+    public void Regresar()
+    {
+        SceneManager.LoadScene("MenuPrincipal");
+    }
 }
