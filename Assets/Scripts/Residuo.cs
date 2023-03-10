@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Residuo : MonoBehaviour
 {
 
     GameManager datos;
-   
+
     void Start()
     {
         datos = FindObjectOfType<GameManager>();
@@ -18,31 +19,29 @@ public class Residuo : MonoBehaviour
             Destroy(gameObject);
             datos.vidas -= 1;
         }
-
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("contenedor1") && this.CompareTag("residuo"))
+        if (other.CompareTag("contenedor_aluminio") && this.CompareTag("aluminio"))
         {
             datos.score += 1;
             Destroy(gameObject);
         }
 
-        if (other.CompareTag("contenedor2") && this.CompareTag("residuo2"))
+        if (other.CompareTag("contendor_organico") && this.CompareTag("organico"))
         {
             datos.score += 1;
             Destroy(gameObject);
         }
 
-        if (other.CompareTag("contenedor3") && this.CompareTag("residuo3"))
+        if (other.CompareTag("contenedor_pet") && this.CompareTag("pet"))
         {
             datos.score += 1;
             Destroy(gameObject);
         }
 
-        if (other.CompareTag("contenedor4") && this.CompareTag("residuo4"))
+        if (other.CompareTag("contenedor_PapelCarton") && this.CompareTag("papel_carton"))
         {
             datos.score += 1;
             Destroy(gameObject);

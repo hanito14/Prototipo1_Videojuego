@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: 3ca16fdd3e2f05d4ebfca6d2987f0097
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasResiduos_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1558
+        width: 223
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68fbfb5b67bdcc4094bf596cf2ae6e1
+      internalID: 922547102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1570
+        width: 155
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df4ae75f3cb33c44a2a98284f89f328
+      internalID: -962174293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1540
+        width: 232
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e6277e2a8d673438b17b5bbed72d6d
+      internalID: 1467729824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_3
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1579
+        width: 375
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7009e3df16ffdf54181c1a82c947e202
+      internalID: -1540535221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_4
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1542
+        width: 302
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41108e84f803701449e9bb5f54633808
+      internalID: 776230042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_5
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1601
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ff6dfb85c4014dbc4dbaeadfc67f8
+      internalID: -37847357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1262
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab17bde32891049b2f913dc7e128f5
+      internalID: 197600704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1253
+        width: 243
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c65ca4bfaa0634eb4510bb01f4322e
+      internalID: -1661734635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_13
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1270
+        width: 212
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164da3e7de2a2740b142a4b37c353fa
+      internalID: 1491149451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1220
+        width: 112
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff7f2c26485ce4fb8ba90bb0714529
+      internalID: 284819410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_22
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1242
+        width: 112
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250017994434ac44c81e853d0f06493e
+      internalID: 895710114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1013
+        width: 196
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d5486f18cd02f4eb4f7ec3ca275d6a
+      internalID: 514033601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_50
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 954
+        width: 257
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a702faa0d16da846abdcca91ab27cb2
+      internalID: 1523668181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_52
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 863
+        width: 254
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29752e115c070e42a2c505f49d2d448
+      internalID: 1908569824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_53
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 923
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95194cfbae525ea49aebab9ca5c49f20
+      internalID: -985623080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_62
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 941
+        width: 272
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88420fdd726b95345a21fc3edf3a98e0
+      internalID: -713815149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_70
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 972
+        width: 155
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b013e369f849d484186939992150a3cf
+      internalID: 1294512799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_97
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 565
+        width: 217
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c85af59b45bafe498388b4258abe36a
+      internalID: -7761215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_98
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 565
+        width: 83
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d574aa0c862a11f4db3900c0f46cdf17
+      internalID: 1883363567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_99
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 565
+        width: 115
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c9ee3210fea484ab152117a386818f
+      internalID: 295538187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_105
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 565
+        width: 125
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c4521c87581a499e94892c1af499c
+      internalID: -1417186995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_106
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 555
+        width: 322
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f698c40c8a483642b66289bd95f9714
+      internalID: -1721480005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_112
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 216
+        width: 85
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e9b845caadb6f478ef59d24560befc
+      internalID: 622085118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_114
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 219
+        width: 154
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3ae1bb380d58f4c9f4c2b98529b770
+      internalID: -1319996860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_116
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 218
+        width: 186
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8ed34fa939fd40b0c77ddbf18360e
+      internalID: 1424227500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_119
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 206
+        width: 134
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b601b0f148644547974659fdcc3f63f
+      internalID: -1971366152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_6
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1259
+        width: 228
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c116b485bc5a7b64eb0774fe5b090274
+      internalID: -238925132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasResiduos_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 563
+        width: 221
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63a2b5cc8b07f94cacf5158602707d3
+      internalID: 1481282053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AtlasResiduos_127: 1694678375
+      AtlasResiduos_124: -1664417285
+      AtlasResiduos_6: -238925132
+      AtlasResiduos_11: -677442509
+      AtlasResiduos_55: -1037908254
+      AtlasResiduos_68: -1006577520
+      AtlasResiduos_43: 1900274957
+      AtlasResiduos_107: 1882506083
+      AtlasResiduos_96: -21489082
+      AtlasResiduos_126: 944517348
+      AtlasResiduos_125: -799557605
+      AtlasResiduos_40: 707914050
+      AtlasResiduos_91: 2020765958
+      AtlasResiduos_27: 1145232521
+      AtlasResiduos_72: 1571934199
+      AtlasResiduos_98: 1883363567
+      AtlasResiduos_119: -1971366152
+      AtlasResiduos_15: -1354984790
+      AtlasResiduos_48: 2036952938
+      AtlasResiduos_20: 733417408
+      AtlasResiduos_115: -1403007359
+      AtlasResiduos_12: -1661734635
+      AtlasResiduos_51: -845638489
+      AtlasResiduos_113: 842809032
+      AtlasResiduos_110: -795012261
+      AtlasResiduos_77: 2002578732
+      AtlasResiduos_104: 202103162
+      AtlasResiduos_93: -783164510
+      AtlasResiduos_94: 1263254592
+      AtlasResiduos_129: -1213026060
+      AtlasResiduos_53: -985623080
+      AtlasResiduos_64: -2109810777
+      AtlasResiduos_60: 262475328
+      AtlasResiduos_73: -1752244434
+      AtlasResiduos_75: 1674492461
+      AtlasResiduos_17: 284819410
+      AtlasResiduos_81: -1863715566
+      AtlasResiduos_85: 1741601838
+      AtlasResiduos_2: 1467729824
+      AtlasResiduos_31: 818033645
+      AtlasResiduos_14: -1493234692
+      AtlasResiduos_112: 622085118
+      AtlasResiduos_120: -1461626392
+      AtlasResiduos_69: -1369171961
+      AtlasResiduos_58: 552419725
+      AtlasResiduos_46: 514033601
+      AtlasResiduos_44: -533684166
+      AtlasResiduos_128: 290490110
+      AtlasResiduos_106: -1721480005
+      AtlasResiduos_117: -1610056597
+      AtlasResiduos_34: -2021747127
+      AtlasResiduos_61: 2101133585
+      AtlasResiduos_99: 295538187
+      AtlasResiduos_13: 1491149451
+      AtlasResiduos_26: 324104648
+      AtlasResiduos_65: 1945199098
+      AtlasResiduos_90: 1850454259
+      AtlasResiduos_47: 278298534
+      AtlasResiduos_56: 537946993
+      AtlasResiduos_3: -1540535221
+      AtlasResiduos_103: -712646522
+      AtlasResiduos_8: -2013999956
+      AtlasResiduos_108: 1836773057
+      AtlasResiduos_123: -604868231
+      AtlasResiduos_21: 1870930344
+      AtlasResiduos_87: -1372934580
+      AtlasResiduos_4: 776230042
+      AtlasResiduos_49: -713578649
+      AtlasResiduos_83: 719511198
+      AtlasResiduos_111: 982164197
+      AtlasResiduos_36: 1824757609
+      AtlasResiduos_67: -1490068045
+      AtlasResiduos_33: 599403064
+      AtlasResiduos_114: -1319996860
+      AtlasResiduos_29: 308511998
+      AtlasResiduos_50: 1523668181
+      AtlasResiduos_42: 545048010
+      AtlasResiduos_54: -1733788071
+      AtlasResiduos_57: 1988776576
+      AtlasResiduos_100: 511136488
+      AtlasResiduos_63: -1245585079
+      AtlasResiduos_88: 268035983
+      AtlasResiduos_38: 677255165
+      AtlasResiduos_78: -1250115685
+      AtlasResiduos_59: -893903756
+      AtlasResiduos_102: 199340176
+      AtlasResiduos_32: -1530775714
+      AtlasResiduos_97: -7761215
+      AtlasResiduos_70: 1294512799
+      AtlasResiduos_10: -234971560
+      AtlasResiduos_22: 895710114
+      AtlasResiduos_122: -472101064
+      AtlasResiduos_7: 1481282053
+      AtlasResiduos_19: 479572052
+      AtlasResiduos_30: 1459857563
+      AtlasResiduos_89: -6556981
+      AtlasResiduos_9: 197600704
+      AtlasResiduos_45: 1226875737
+      AtlasResiduos_23: 1578130311
+      AtlasResiduos_80: -644173183
+      AtlasResiduos_109: -1495957248
+      AtlasResiduos_18: 710998433
+      AtlasResiduos_24: 992416435
+      AtlasResiduos_37: -1261002969
+      AtlasResiduos_71: -1893596667
+      AtlasResiduos_1: -962174293
+      AtlasResiduos_101: -383977797
+      AtlasResiduos_82: -438129831
+      AtlasResiduos_105: -1417186995
+      AtlasResiduos_25: -494898935
+      AtlasResiduos_5: -37847357
+      AtlasResiduos_76: -1142971217
+      AtlasResiduos_0: 922547102
+      AtlasResiduos_16: -1661707452
+      AtlasResiduos_28: -2086515038
+      AtlasResiduos_39: 462190767
+      AtlasResiduos_52: 1908569824
+      AtlasResiduos_74: 847199476
+      AtlasResiduos_62: -713815149
+      AtlasResiduos_95: 279143167
+      AtlasResiduos_35: -1555138294
+      AtlasResiduos_79: -736138308
+      AtlasResiduos_116: 1424227500
+      AtlasResiduos_92: -11767741
+      AtlasResiduos_86: 200302820
+      AtlasResiduos_66: 1486417970
+      AtlasResiduos_84: 1520430752
+      AtlasResiduos_41: -1899109685
+      AtlasResiduos_121: 339680083
+      AtlasResiduos_118: -1033751003
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

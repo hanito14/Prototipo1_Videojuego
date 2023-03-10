@@ -39,7 +39,7 @@ public class Dragging : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.collider.tag == "residuo" || hit.collider.tag == "residuo2" || hit.collider.tag == "residuo3" || hit.collider.tag == "residuo4")
+                if (hit.collider.tag == "aluminio" || hit.collider.tag == "organico" || hit.collider.tag == "pet" || hit.collider.tag == "papel_carton")
                 {
                     toDrag = hit.transform;
                     dist = hit.transform.position.z - Camera.main.transform.position.z;

@@ -4,14 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - residuo
-  - contenedor1
-  - contenedor2
-  - contenedor3
-  - contenedor4
-  - residuo2
-  - residuo3
-  - residuo4
+  - organico
+  - contendor_organico
+  - papel_carton
+  - contenedor_PapelCarton
+  - aluminio
+  - contenedor_aluminio
+  - pet
+  - contenedor_pet
   layers:
   - Default
   - TransparentFX
@@ -46,6 +46,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3751220077
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

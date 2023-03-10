@@ -7,9 +7,11 @@ public class Spawner : MonoBehaviour
     [SerializeField]
     List<GameObject> listaResiduos = new List<GameObject>();
     [SerializeField]
-    float baseTime = 2f;
 
-    
+    int direction => Random.Range(0, 2) ;
+
+    float difficultTime = 5;
+
 
     void Start()
     {
@@ -19,18 +21,46 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(baseTime);
+            yield return new WaitForSeconds(difficultTime);
 
-            float upForce = Random.Range(10f, 13f);
-            int prefabIndex = Random.Range(0, listaResiduos.Count);
+            difficultTime -= 0.1f;
 
-            GameObject instance = Instantiate(listaResiduos[prefabIndex], new Vector2(-2.5f, -4.5f), Quaternion.identity);
+            if (difficultTime <= 0.5)
+            {
+                difficultTime = 0.5f;
+            }
 
-            Rigidbody prefabRigidbody = instance.GetComponent<Rigidbody>();
+            Debug.Log(difficultTime);
 
-            prefabRigidbody.AddForce(new Vector2(3f, upForce), ForceMode.Impulse);
-
+            Debug.Log(direction);
             
+            if (direction == 0)
+            {
+                float upForce = Random.Range(9f, 12f);
+                int prefabIndex = Random.Range(0, listaResiduos.Count);
+
+
+                GameObject instance = Instantiate(listaResiduos[prefabIndex], transform.position, Quaternion.identity);
+
+                Rigidbody prefabRigidbody = instance.GetComponent<Rigidbody>();
+
+                prefabRigidbody.AddForce(new Vector2(3f, upForce), ForceMode.Impulse);
+            }
+            else
+            {
+
+                float upForce = Random.Range(9f, 12f);
+                int prefabIndex = Random.Range(0, listaResiduos.Count);
+
+
+                GameObject instance = Instantiate(listaResiduos[prefabIndex], new Vector3(-transform.position.x, transform.position.y) , Quaternion.identity);
+
+                Rigidbody prefabRigidbody = instance.GetComponent<Rigidbody>();
+
+                prefabRigidbody.AddForce(new Vector2(-3f, upForce), ForceMode.Impulse);
+            }
+
+
         }
     }
 }

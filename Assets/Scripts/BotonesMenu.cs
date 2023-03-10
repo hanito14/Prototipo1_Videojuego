@@ -6,6 +6,7 @@ public class BotonesMenu : MonoBehaviour
     public void ComenzarJuego()
     {
         SceneManager.LoadScene("Juego");
+        AudioListener.pause = false;
     }
 
     public void Pesonalizar()

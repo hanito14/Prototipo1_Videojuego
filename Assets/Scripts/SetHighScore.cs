@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class SetHighScore : MonoBehaviour
 {
-    private TextMeshProUGUI highScore;
+    public TextMeshProUGUI highScore;
+    public TextMeshProUGUI coins;
 
     void Start()
     {
-        highScore = GetComponent<TextMeshProUGUI>();
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+        coins.text = PlayerPrefs.GetInt("Coins", 0).ToString();
     }
 
 }
